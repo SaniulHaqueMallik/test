@@ -1,0 +1,81 @@
+body {
+    background-image: url('bg.png'); /* Replace 'your-image-path.jpg' with the path to your image file */
+    background-size: cover; /* Cover the entire background */
+    background-position:center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    color: #f0f4f4;
+}    
+
+.wrapper {
+    width:30%;
+    height:40%;
+    text-align:center;
+    background-color: #fff; /* White background for the wrapper */
+    padding: 20px;
+    border:2px solid #005b7e;
+    border-radius: 10px; /* Rounded corners for the wrapper */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+}
+
+table {
+    width: 100%;
+    margin:0 auto;
+    border-collapse:collapse;
+    
+}
+
+td {
+    padding: 10px;
+    text-align:left;
+}
+
+label {
+    display: block; /* Make labels block-level for better spacing */
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.inp1,
+.inp2 {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-bottom: 10px;
+}
+
+button {
+    color: #fff;
+    background-color: #1c91bf;
+    padding:1vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #155c85; /* Darker shade on hover */
+    transform:scale(1.1);
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url('bg.png');
+        /* Adjust other styles for smaller screens as needed */
+    }
+
+    table {
+        width: 100%;
+        /* Adjust other styles for smaller screens as needed */
+    }
+}
